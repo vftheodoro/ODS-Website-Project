@@ -1,42 +1,49 @@
-# Projeto: Website sobre os Objetivos de Desenvolvimento Sustentável (ODS) - Saúde e Bem-estar
+# ODS 3 — Saúde e Bem-estar | Educational Website
 
-Este repositório contém os arquivos de um dos primeiros websites desenvolvidos por mim, como parte de um projeto durante o primeiro ano do curso de Desenvolvimento de Sistemas na ETEC, na disciplina de Programação para Web, sob a supervisão do Professor [Fred Barbosa](https://github.com/fbamuniz).
+Static educational website about the United Nations Sustainable Development Goal 3 (health and well-being), created during the first year of the Systems Development technical program at Etec Registro.
 
-## Descrição do Projeto
+## Project overview
 
-O projeto consiste em um website voltado para a conscientização sobre os [Objetivos de Desenvolvimento Sustentável (ODS)](https://www.ipea.gov.br/ods/ods3.html), com foco na saúde e bem-estar. Foi desenvolvido em HTML e CSS, sendo um dos primeiros sites criados pelos colaboradores. O trabalho foi realizado em grupo, com contribuições significativas de todos os membros. A programação foi liderada principalmente por Victor, enquanto o design, os textos e as ideias foram desenvolvidos por Miguel e Larissa usando o Figma.
+The site presents an introduction to the SDGs, thematic sections and articles, and links to resources about health and well-being. This was an early collaborative exercise in translating a design into a web page.
 
-<div align="left">  
-<h2>Tecnologias Utilizadas</h2>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="60"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="60"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" width="60"/>
-</div>
+## Technologies
 
-## Conteúdo
+- HTML5 (main page: `Index.html`).
+- CSS3 (`style.css`).
+- Local graphics in `imgs/` and `elementos/`.
+- External font resources loaded by the browser.
 
-O website aborda informações relevantes sobre os ODS relacionados à saúde e bem-estar, apresentando conteúdos como:
+## Run locally
 
-- Objetivos específicos dos ODS nesta área.
-- Estatísticas e dados relacionados à saúde global.
-- Iniciativas e ações recomendadas para promover saúde e bem-estar.
+No server-side dependencies or package installation are required.
 
-## Contribuidores
+```bash
+git clone https://github.com/vftheodoro/ODS-Website-Project.git
+cd ODS-Website-Project
+```
 
-- [Victor Theodoro](https://github.com/VTheodoro)
-- [Miguel José](https://github.com/Josef-miguel)
-- [Larissa Vassao](https://github.com/LarissaVassao)
+Open `Index.html` in a web browser. Alternatively, use a local static HTTP server to test navigation and assets.
 
-## Como Contribuir
+## Structure
 
-Se você deseja contribuir para este projeto, siga os seguintes passos:
+| Path | Purpose |
+| --- | --- |
+| `Index.html` | Page structure, sections, and educational content |
+| `style.css` | Layout and visual presentation |
+| `imgs/`, `elementos/` | Illustrations and supporting resources |
 
-1. Faça um fork do repositório.
-2. Crie uma branch para a sua contribuição (`git checkout -b minha-contribuicao`).
-3. Faça suas alterações e commit (`git commit -am 'Adicionando minha contribuição'`).
-4. Envie para a branch (`git push origin minha-contribuicao`).
-5. Abra um Pull Request.
+## Contributors
 
-## Licença
+- [Victor Theodoro](https://github.com/vftheodoro) — primarily web implementation, as documented in the original README.
+- [Miguel José](https://github.com/Josef-miguel) — design/content collaboration.
+- [Larissa Vassao](https://github.com/LarissaVassao) — design/content collaboration.
+- Teaching supervision: [Fred Barbosa](https://github.com/fbamuniz).
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+## Notes and limitations
+
+This is a historical school project. External news articles and statistics referenced in the page may reflect their original 2023 context and should not be treated as up-to-date public-health guidance. The site is static; it does not provide medical advice or a backend API.
+
+## Reference and license
+
+- [UN Sustainable Development Goals](https://sdgs.un.org/goals/goal3)
+- [MIT License](LICENSE)
